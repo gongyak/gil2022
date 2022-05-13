@@ -89,7 +89,7 @@ nav img {
 
 nav .sections {
     display: none !important;
-    
+
     margin-bottom: 10px;
     text-align: center;
     text-align: center;
@@ -163,7 +163,8 @@ nav .section_normal:hover {
     border: none;
     padding: 8px 10px 8px 10px;
     text-decoration: none;
-    font-size: medium;
+    font-size: large;
+    font-weight: bold;
     transition: 0.25s;
     margin: 4px 4px 4px 4px;
 
