@@ -17,7 +17,7 @@ Kakao.init('c462c25f06813a2fa3bafcb3f80c77e1');
 const shareKakaoTalk = () => {
     Kakao.Link.sendDefault({
         objectType: 'text',
-        text: '공약한판정리 - 기호1번 이재명',
+        text: '공약정리 - 기호1번 송영길',
         link: {
             mobileWebUrl: window.location.href,
             webUrl: window.location.href,
@@ -37,7 +37,7 @@ const shareKakaoTalk = () => {
 
 const shareTelegram = () => {
     let url = encodeURIComponent(window.location.href)
-    let title = encodeURIComponent("공약한판정리 - 기호1번 이재명")
+    let title = encodeURIComponent("공약정리 - 기호1번 송영길")
     window.open("https://telegram.me/share/url?url=" + url + "&text=" + title, "_blank")
 
     gtag('event', '공유선택', {
