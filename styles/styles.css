@@ -267,9 +267,10 @@ nav .section_normal:hover {
 }
 
 .pledge_location {
-    color: #0B68B3;
-    font-size: x-large;
-    font-weight: bold;
+    color: #00A0E2;
+    font-size: large;
+    font-weight: medium;
+    margin-bottom: 5px;
 }
 
 .pledge_title {
