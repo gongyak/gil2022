@@ -172,12 +172,14 @@ nav .section_normal:hover {
 }
 
 .tag {
-    color: #3982C1;
+    /* color: #3982C1; */
+    color: black;
     background-color: #F2F9FE;
 }
 
 .tag:hover {
-    color: #2C679D;
+    /* color: #2C679D; */
+    color: black;
     background-color: #E3F1FD;
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 }
