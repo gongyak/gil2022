@@ -62,6 +62,9 @@ header img.title {
     border-radius: 3px;
 }
 
+header .banner img {
+    width: 100%;
+}
 
 header .subtitle {
     font-weight: bold;
