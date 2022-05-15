@@ -218,6 +218,12 @@ nav .section_normal:hover {
     font-size: xx-large;
 }
 
+#pledges_message .justbold {
+    color: rgb(68, 68, 68);
+    font-weight: bolder;
+    font-size: x-large;
+}
+
 .pledge {
     margin: 15px;
     background-color: white;
