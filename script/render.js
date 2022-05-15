@@ -176,11 +176,11 @@ const selectTag = (tag) => {
     render(tag)
 
     // console.log("selected category: " + tag)
-    gtag('event', 'seoul2030 카테고리 선택', {
+    gtag('event', 'gil2022:카테고리 선택', {
         'event_category': '카테고리',
         'event_lavel': `${tag}`
     })
-    gtag('event', `seoul2030 카테고리: ${tag}`, {
+    gtag('event', `gil2022:카테고리: ${tag}`, {
         'event_category': '카테고리',
         'event_lavel': `${tag}`
     })
@@ -230,11 +230,11 @@ const expandPledge = (index) => {
         
         // console.log("selected pledge: " + title + location)
     
-        gtag('event', 'seoul2030 세부공약 선택', {
+        gtag('event', 'gil2022:세부공약 선택', {
             'event_category': '세부공약',
             'event_lavel': `${title} ${location}`
         })
-        gtag('event', `seoul2030 세부공약: ${title} ${location}`, {
+        gtag('event', `gil2022:세부공약: ${title} ${location}`, {
             'event_category': '세부공약',
             'event_lavel': `${title} ${location}`
         })
@@ -291,11 +291,11 @@ const selectSection = (section) => {
                 render("")
             })
 
-            gtag('event', 'seoul2030 섹션전환', {
+            gtag('event', 'gil2022:섹션전환', {
                 'event_category': '섹션',
                 'event_lavel': `관심분야`
             })
-            gtag('event', 'seoul2030 섹션전환: 관심분야', {
+            gtag('event', 'gil2022:섹션전환: 관심분야', {
                 'event_category': '섹션',
                 'event_lavel': `관심분야`
             })
@@ -311,11 +311,11 @@ const selectSection = (section) => {
                 render("")
             })
 
-            gtag('event', 'seoul2030 섹션전환', {
+            gtag('event', 'gil2022:섹션전환', {
                 'event_category': '섹션',
                 'event_lavel': `우리지역`
             })
-            gtag('event', 'seoul2030 섹션전환: 우리지역', {
+            gtag('event', 'gil2022:섹션전환: 우리지역', {
                 'event_category': '섹션',
                 'event_lavel': `우리지역`
             })
