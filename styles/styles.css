@@ -28,6 +28,11 @@ header {
     color: #0042A1;
 }
 
+header div {
+    margin: 0px;
+    padding: 0px;
+}
+
 header a {
     text-decoration: none;
 }
@@ -62,21 +67,43 @@ header img.title {
     border-radius: 3px;
 }
 
-header .banner img {
-    width: 100%;
-}
-
 header .subtitle {
     font-weight: bold;
     font-size: medium;
     color: rgb(99, 99, 99);
 }
 
-header .charnum {
-    font-weight: bolder;
-    font-size: x-large;
-    color: #F8D548;
-    -webkit-text-stroke: 1px black;
+header .banner {
+    margin: 0px;
+    padding: 0px;
+}
+
+header .banner img {
+    display: block;
+    width: 100%;
+}
+
+header .link {
+    background-color: #D5D5D5;
+    text-align: center;
+    margin: 0px;
+}
+
+header .link img {
+    width: 22px;
+    height: 22px;
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 0.65;
+}
+
+header .link img:hover {
+    opacity: 1.0;
+    transition: 0.25s;
+    transform: translate(0px, -3px);
 }
 
 nav {

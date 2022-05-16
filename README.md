@@ -19,6 +19,13 @@
 - https://www.flaticon.com/free-icon/plus_1828817
 - https://www.flaticon.com/free-icon/link_455893
 
+- https://www.flaticon.com/premium-icon/home_4175279
+- https://www.flaticon.com/free-icon/facebook_1384005
+- https://www.flaticon.com/free-icon/youtube_1384012
+- https://www.flaticon.com/free-icon/blog_3959425
+- https://www.flaticon.com/free-icon/instagram_1384015
+- https://www.flaticon.com/free-icon/twitter_2111738
+
 
 ## Building Docker Container
 ```zsh
