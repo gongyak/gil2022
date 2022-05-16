@@ -19,6 +19,7 @@
 - https://www.flaticon.com/free-icon/plus_1828817
 - https://www.flaticon.com/free-icon/link_455893
 
+- https://www.flaticon.com/free-icon/home-page_2144
 - https://www.flaticon.com/free-icon/facebook_1384005
 - https://www.flaticon.com/free-icon/youtube_1384012
 - https://www.flaticon.com/free-icon/blog_3959425
