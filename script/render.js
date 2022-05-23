@@ -75,7 +75,11 @@ const renderTitle = (selected_tag) => {
             }
         })
 
-        title = `&#8220;${header} <span>${title_tag}</span>${Josa.c(title_tag, '을/를')} 위한 약속&#8221;` 
+        if (title_tag === "5대 공약") {
+            title = `&#8220;${header} <span>${title_tag}</span>&#8221;` 
+        } else {
+            title = `&#8220;${header} <span>${title_tag}</span>${Josa.c(title_tag, '을/를')} 위한 약속&#8221;` 
+        }     
     }
 
     document.getElementById("pledges_message").innerHTML = title
